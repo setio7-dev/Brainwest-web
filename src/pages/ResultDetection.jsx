@@ -19,7 +19,7 @@ const ResultDetection = () => {
 
   if (label == "glioma") urgency = "Risiko Tinggi"
   else if (label == "meningioma") urgency = "Risiko Menengah"
-  else if (label == "notumor") urgency = "Tampa Risiko"
+  else if (label == "notumor") urgency = "Tanpa Risiko"
   else if (label == "pituitary") urgency = "Risiko Hormonal"
   else urgency = "[error]"
 
